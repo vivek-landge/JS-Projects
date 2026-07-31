@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Switcher</title>
+
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav{
+            margin-bottom: 20px;
+        }
+
+        .color-container{
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .container{
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+
+        #grey{
+            background-color: grey;
+        }
+
+        #white{
+            background-color: white;
+        }
+
+        #yellow{
+            background-color: yellow;
+        }
+
+        #blue{
+            background-color: blue;
+        }
+
+        h1,h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <button>Home</button>
+    </nav>
+
+    <h1>Color Scheme Switcher</h1>
+
+    <div class="color-container">
+        <span class="container" id="grey"></span>
+        <span class="container" id="white"></span>
+        <span class="container" id="yellow"></span>
+        <span class="container" id="blue"></span>
+    </div>
+
+    <h2>
+        Try clicking on one of the colors above to change the background color of the page!
+    </h2>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>
