@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+</head>
+<body>
+    <nav>
+        <a href="JS-Projects/index.html"><button  style="background-color: red;">Home</button></a>
+    </nav>
+    <div>
+        <p><bold>Number Guessing Game</bold></p>
+        <p>Try and guess random numbers between 1 and 100.</p>
+        <p>You have 10 attempts to guess the right number</p>
+
+        <h1>Guess A Number</h1>
+        <form >
+            <input type="text">
+            <button style="background-color: orange;" id = "Submit">Submit Guess</button>
+            <p id = "guess">Previous Guessess :</p>
+            <p id = "remGuess">Guessess Remaining :</p>
+            <p id="lowOrHi"></p>
+        </form>
+    </div>
+    
+    
+</body>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: aliceblue;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: grey;
+        padding: 50px 50px 50px 50px;
+        border:2px solid white;
+        border-radius: 10px;
+        color: aliceblue;
+    }
+
+</style>
+<script src="Script.js"></script>
+</html>
