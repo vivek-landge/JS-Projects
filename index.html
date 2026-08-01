@@ -7,27 +7,52 @@
 </head>
 <body>
 <nav>
-    <Button href="JS-Projects/index.html">Home</Button>
+    <a href="JS-Projects/index.html">
+        <Button>Home</Button>
+    </a>    
 </nav>
 
-<h1>JS-Projects</h1>
-<button class = "Container" id="one" href="JS-Projects/Color-Changer/index.html">Color Changer</button>
-<Button class = "Container" id="two" href="JS-Projects/BMI-Calculator/index.html">BMI Calculator</Button>
-<Button class = "Container" id="three" href="JS-Projects/Clock/index.html">Clock</Button>
-<Button class = "Container" id="four" href="JS-Projects/Guess-Number/index.html">Guess The Number</Button>
+<div>
+    <h1>JS-Projects</h1>
+<a href="JS-Projects/Color-Changer/index.html">
+    <button class = "Container" id="one">Color Changer</button>
+</a>
+<a href="JS-Projects/BMI-Calculator/index.html">
+    <Button class = "Container" id="two">BMI Calculator</Button>
+</a>
+<a href="JS-Projects/Clock/index.html">
+    <Button class = "Container" id="three">Clock</Button>
+</a>
+<a  href="JS-Projects/Guess-Number/index.html">
+    <Button class = "Container" id="four">Guess The Number</Button>
+</a>
+</div>
 </body>
 <style>
-.Container{
-    display: flex;
-    justify-content: center;
-}
+div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: grey;
+        padding: 50px 50px 50px 50px;
+        border:2px solid white;
+        border-radius: 10px;
+        color: aliceblue;
+    }
 body{
-    background-color: black;
-    color: #fff;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: aliceblue;
+    }
 button{
-    background-color: orange;
-    color: black;
+    background-color : orange;
+    color : black;
+    border : 2px solid black;
+    border-radius : 10px;
 }
 </style>
 <script src="Script.js"></script>
