@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unlimited Colors</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="../index.html">
+          <button style="background-color: red">Home</button>
+        </a>
+      </nav>
+      <h1>Unlimited Colors</h1>
+      <p>Click start to change the background color every second</p>
+      <div>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+      </div>
+    </div>
+  </body>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      color: aliceblue;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: grey;
+      padding: 50px 50px 50px 50px;
+      border: 2px solid white;
+      border-radius: 10px;
+      color: aliceblue;
+    }
+    button {
+      background-color: orange;
+      color: black;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 10px 10px 10px 10px;
+    }
+  </style>
+  <script src="Script.js"></script>
+</html>
